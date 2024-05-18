@@ -1,0 +1,20 @@
+# Olah Data Semarang
+# WhatsApp : +6285227746673
+# IG : @olahdatasemarang_
+# Slacks based Measure of Efficiency in Stata Use deaR (In) With R Software
+install.packages("deaR")
+install.packages("httr")
+library("deaR")
+library("httr")
+sbmeff = read.csv("https://raw.githubusercontent.com/timbulwidodostp/sbmeff/main/sbmeff/sbmeff.csv",sep = ";")
+# Estimate Econometric Models for Spatial Panel Data Use spml With (In) R Software
+sbmeff <- make_deadata(sbmeff,inputs = 6:7, outputs = 8:9)
+sbmeff <- model_sbmeff(sbmeff)
+efficiencies(sbmeff)
+targets(sbmeff)
+slacks(sbmeff)
+# Slacks based Measure of Efficiency in Stata Use deaR (In) With R Software
+# Olah Data Semarang
+# WhatsApp : +6285227746673
+# IG : @olahdatasemarang_
+# Finished
