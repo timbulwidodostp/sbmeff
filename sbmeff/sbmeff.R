@@ -1,7 +1,7 @@
 # Olah Data Semarang
 # WhatsApp : +6285227746673
 # IG : @olahdatasemarang_
-# Slacks based Measure of Efficiency in Stata Use deaR (In) With R Software
+# Slacks based Measure of Efficiency Use deaR (In) With R Software
 install.packages("deaR")
 install.packages("httr")
 library("deaR")
@@ -13,7 +13,7 @@ sbmeff <- model_sbmeff(sbmeff)
 efficiencies(sbmeff)
 targets(sbmeff)
 slacks(sbmeff)
-# Slacks based Measure of Efficiency in Stata Use deaR (In) With R Software
+# Slacks based Measure of Efficiency Use deaR (In) With R Software
 # Olah Data Semarang
 # WhatsApp : +6285227746673
 # IG : @olahdatasemarang_
