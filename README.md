@@ -1,6 +1,8 @@
 # sbmeff
 Slacks based Measure of Efficiency in Stata Use deaR (In) With R Software
 
+https://www.youtube.com/watch?v=-ZYVwNL39MQ
+
 Olah Data Semarang
 
 WA : +6285227746673 (085227746673)
